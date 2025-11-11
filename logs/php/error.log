@@ -1,0 +1,9 @@
+[31-Oct-2025 05:15:20 UTC] PHP Warning:  require(C:\Users\aamir\Local Sites\hippo-demo\app\public/wp-includes/version.php): Failed to open stream: No such file or directory in C:\Users\aamir\Local Sites\hippo-demo\app\public\wp-settings.php on line 34
+[31-Oct-2025 05:15:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\aamir\Local Sites\hippo-demo\app\public/wp-includes/version.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\aamir\Local Sites\hippo-demo\app\public\wp-settings.php:34
+Stack trace:
+#0 C:\Users\aamir\Local Sites\hippo-demo\app\public\wp-config.php(113): require_once()
+#1 C:\Users\aamir\Local Sites\hippo-demo\app\public\wp-load.php(50): require_once('C:\\Users\\aamir\\...')
+#2 C:\Users\aamir\Local Sites\hippo-demo\app\public\wp-blog-header.php(13): require_once('C:\\Users\\aamir\\...')
+#3 C:\Users\aamir\Local Sites\hippo-demo\app\public\index.php(17): require('C:\\Users\\aamir\\...')
+#4 {main}
+  thrown in C:\Users\aamir\Local Sites\hippo-demo\app\public\wp-settings.php on line 34
